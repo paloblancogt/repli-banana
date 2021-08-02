@@ -28,9 +28,9 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         $schedule->job(PesosJob::class)->everyFifteenMinutes();
-        $schedule->job(RacimosJob::class)->everyFifteenMinutes();
+        $schedule->job(RacimosJob::class)->everyTenMinutes();
         $schedule->job(CargasJob::class)->everyFiveMinutes();
-        $schedule->job(EmpacadorasJob::class)->everyFiveMinutes();
+        $schedule->job(EmpacadorasJob::class)->everyThirtyMinutes();
     }
 
     /**
