@@ -58,8 +58,8 @@ return [
         'veintitres' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('REPLICACION_HOST', '127.0.0.1'),
-            'port' => env('REPLICACION_PORT', '3306'),
+            'host' => env('REPLICACION_HOST', '192.168.4.23'),
+            'port' => env('REPLICACION_PORT', '3307'),
             'database' => env('REPLICACION_DATABASE', 'forge'),
             'username' => env('REPLICACION_USERNAME', 'forge'),
             'password' => env('REPLICACION_PASSWORD', ''),
