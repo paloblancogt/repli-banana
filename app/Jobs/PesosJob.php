@@ -12,7 +12,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 class PesosJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
-    public $timeout = 1000;
+    public $timeout = 2000;
    
     /**
      * Create a new job instance.
