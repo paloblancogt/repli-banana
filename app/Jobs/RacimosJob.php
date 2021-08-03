@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Storage;
 class RacimosJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
+    public $timeout = 1000;
     
     /**
      * Create a new job instance.
